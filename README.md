@@ -1,4 +1,4 @@
-[![](https://images.microbadger.com/badges/version/maapteh/chrome-headless.svg)](https://microbadger.com/images/maapteh/chrome-headless "alpine latest") [![](https://images.microbadger.com/badges/image/maapteh/docker-chrome-headless.svg)](https://microbadger.com/images/maapteh/chrome-headless "Download size")
+[![](https://images.microbadger.com/badges/version/maapteh/docker-chrome-headless.svg)](https://microbadger.com/images/maapteh/docker-chrome-headless "alpine latest") [![](https://images.microbadger.com/badges/image/maapteh/docker-chrome-headless.svg)](https://microbadger.com/images/maapteh/docker-chrome-headless "Download size")
 
 # Chrome Headless and Node in a docker container
 
