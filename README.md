@@ -1,4 +1,5 @@
 [![](https://images.microbadger.com/badges/version/maapteh/docker-chrome-headless.svg)](https://microbadger.com/images/maapteh/docker-chrome-headless "alpine latest") [![](https://images.microbadger.com/badges/image/maapteh/docker-chrome-headless.svg)](https://microbadger.com/images/maapteh/docker-chrome-headless "Download size")
+[![](https://images.microbadger.com/badges/commit/maapteh/docker-chrome-headless.svg)](https://microbadger.com/images/maapteh/docker-chrome-headless "Commit")
 
 # Chrome Headless and NodeJS instance
 >This image allows you to run headless Chromium JavaScript tests in a container.
