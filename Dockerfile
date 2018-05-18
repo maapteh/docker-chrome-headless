@@ -1,3 +1,5 @@
+FROM node:8-alpine
+
 RUN echo @edge http://nl.alpinelinux.org/alpine/edge/community >> /etc/apk/repositories \
     && apk add --no-cache \
     python \
