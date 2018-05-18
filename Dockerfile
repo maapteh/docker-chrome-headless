@@ -1,5 +1,8 @@
 FROM node:8-alpine
 
+ARG BUILD_DATE
+ARG VCS_REF
+
 LABEL maintainer="Maapteh" \
       org.label-schema.vendor="Maapteh" \
       org.label-schema.name="Chrome Headless and Node instance" \
@@ -7,7 +10,7 @@ LABEL maintainer="Maapteh" \
       org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.vcs-ref=$VCS_REF \
       org.label-schema.vcs-url="https://github.com/maapteh/docker-chrome-headless.git" \
-      org.label-schema.vcs-type="Git"
+      org.label-schema.vcs-type="Git" \
       org.label-schema.license="MIT" \
       org.label-schema.schema-version="1.0"
 
