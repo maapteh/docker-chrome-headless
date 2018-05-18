@@ -2,10 +2,13 @@ FROM node:8-alpine
 
 LABEL maintainer="Maapteh" \
       org.label-schema.vendor="Maapteh" \
-      org.label-schema.url="https://github.com/maapteh/docker-chrome-headless" \
       org.label-schema.name="Chrome Headless and Node instance" \
-      org.label-schema.license="Apache-2.0" \
-      org.label-schema.version="9.6.8" \
+      org.label-schema.url="https://github.com/maapteh/docker-chrome-headless" \
+      org.label-schema.build-date=$BUILD_DATE \
+      org.label-schema.vcs-ref=$VCS_REF \
+      org.label-schema.vcs-url="https://github.com/maapteh/docker-chrome-headless.git" \
+      org.label-schema.vcs-type="Git"
+      org.label-schema.license="MIT" \
       org.label-schema.schema-version="1.0"
 
 RUN echo @edge http://nl.alpinelinux.org/alpine/edge/community >> /etc/apk/repositories \
