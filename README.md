@@ -9,4 +9,4 @@ This image allows to run headless JavaScript tests in a CI server. This image su
 - chromium-chromedriver@edge (64.0.3282.168-r0)
 
 ## Usage
-Unfortunately, Chromium doesn't support container (https://github.com/travis-ci/travis-ci/issues/938), so you need to start chromium with `--no-sandbox` argument to avoid this.
+You will need to start chromium with `--no-sandbox` argument in your karma config to be able to run Chromium inside a container.
