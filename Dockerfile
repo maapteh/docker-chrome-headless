@@ -20,6 +20,7 @@ RUN echo @edge http://nl.alpinelinux.org/alpine/edge/community >> /etc/apk/repos
     build-base \
     git \
     bash \
+    ncurses \
     # chromium dependencies
     nss@edge \
     chromium-chromedriver@edge \
